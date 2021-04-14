@@ -1,5 +1,5 @@
 {
-  "name": "qs-google-signature",
+  "name": "qs-google-signature2",
   "version": "1.2.0",
   "description": "QS wrapper which Autodetects signature parameter and replace it with a signature according to https://developers.google.com/maps/documentation/business/webservices/auth#digital_signatures",
   "main": "index.js",
@@ -20,10 +20,10 @@
   "dependencies": {
     "clone": "^0.1.18",
     "debug": "^2.1.0",
-    "qs": "^2.3.3"
+    "qs": "^6.10.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
-    "mocha": "^2.0.1"
+    "mocha": "^8.3.2"
   }
 }

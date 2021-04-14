@@ -5,11 +5,15 @@ This is a wrapper around [qs](https://github.com/hapijs/qs) package, made in ord
 
 It's especially intended as an almost drop'in replacement for [qs](https://github.com/hapijs/qs) package or [querystring](http://nodejs.org/api/querystring.html) node API in packages such as :
 
--	[google-distance-matrix](https://github.com/ecteodoro/google-distance-matrix)
+-	[google-distance-matrix](https://github.com/ecteodoro/google-distance-matrix2)
 
 -	[google-distance](https://github.com/edwlook/node-google-distance)
 
 -	[googleMapsUtil](https://github.com/yupitel/googleMapsUtil)
+
+Note
+----
+This is a fork of an unmaintained package created by by [temsa](https://github.com/temsa/qs-google-signature). I forked this and published to NPM under qs-google-signature2 to fix a vulnerability with an old version of qs. Happy to delete/merge this into his original package if they come back.
 
 Install
 -------
